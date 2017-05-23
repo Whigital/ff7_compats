@@ -99,7 +99,8 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556NATO_BELTS
+            _BI_556NATO_BELTS,
+            _BI_556STANAG_MAGS
         };
     };
 
@@ -108,12 +109,20 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556NATO_BELTS
+            _BI_556NATO_BELTS,
+            _BI_556STANAG_MAGS
         };
     };
 
     class arifle_MX_Base_F;
-    class rhs_weap_m4_Base;
+    class rhs_weap_m4_Base: arifle_MX_Base_F
+    {
+        magazines[] +=
+        {
+            _BI_556STANAG_MAGS
+        };
+    };
+
     class rhs_weap_m4a1;
     class rhs_weap_m27iar: rhs_weap_m4a1
     {

@@ -13,22 +13,20 @@ class CfgPatches
         requiredAddons[] =
         {
             "ff7_compat_core",
-            "rhs_c_weapons",
-            "ff7_compat_rhsafrf",
-            "ace_common",
-            "ace_ballistics",
-            "ace_compat_rhs_afrf3"
+            "ff7_compat_rhsusaf_ace",
+            "hlcweapons_core",
+            "hlcweapons_ar15",
+            "hlcweapons_m14",
+            "hlcweapons_SAW",
+            "hlcweapons_FHAWCovert"
         };
         author = AUTHOR;
         authors[] =
         {
+            "csathdfw",
             "Whigital"
         };
-        magazines[] =
-        {
-            QCLASS(5Rnd_338_300gr_HPBT_Mag),
-            QCLASS(5Rnd_338_API526_Mag)
-        };
+        magazines[] = {};
         ammo[] = {};
     };
 };

@@ -6,7 +6,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -14,7 +14,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -22,7 +22,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -31,7 +31,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -40,7 +40,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -48,7 +48,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -56,7 +56,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -65,9 +65,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556STANAG_MAGS,
-            _RHS_556STANAG_MAGS,
-            _ACE_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -75,9 +73,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556STANAG_MAGS,
-            _RHS_556STANAG_MAGS,
-            _ACE_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -85,7 +81,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS
+            _HLC_762M14_MAGS
         };
     };
 
@@ -94,8 +90,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556NATO_BELTS,
-            _FF7_556NATO_BELTS
+            _HLC_556NATO_BELTS
         };
     };
 
@@ -104,7 +99,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS
+            _HLC_762M14_MAGS
         };
     };
 
@@ -113,7 +108,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS
+            _HLC_762M14_MAGS
         };
     };
 
@@ -122,7 +117,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS
+            _HLC_762M14_MAGS
         };
     };
 
@@ -133,9 +128,16 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556NATO_BELTS,
-            _FF7_556NATO_BELTS,
-            _ACE_556STANAG_MAGS
+            _HLC_556NATO_BELTS,
+            _HLC_556STANAG_MAGS
+        };
+    };
+
+    class rhs_weap_m240_base: rhs_weap_M249_base
+    {
+        magazines[] +=
+        {
+            _HLC_762NATO_BELTS
         };
     };
 
@@ -144,9 +146,8 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556NATO_BELTS,
-            _FF7_556NATO_BELTS,
-            _ACE_556STANAG_MAGS
+            _HLC_556NATO_BELTS,
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -155,7 +156,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _ACE_556STANAG_MAGS
+            _HLC_556STANAG_MAGS
         };
     };
 
@@ -164,10 +165,8 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556STANAG_MAGS,
-            _BI_556STANAG_MAGS,
-            _BI_556NATO_DRUMS,
-            _ACE_556STANAG_MAGS
+            _HLC_556STANAG_MAGS,
+            _HLC_556NATO_DRUMS
         };
     };
 
@@ -175,9 +174,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS,
-            _BI_762M14_MAGS,
-            _ACE_762M14_MAGS
+            _HLC_762M14_MAGS
         };
     };
 
@@ -185,19 +182,74 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS,
-            _BI_762M14_MAGS,
-            _ACE_762M14_MAGS
+            _HLC_762M14_MAGS
         };
     };
 
-    class rhs_weap_XM2010_Base_F;
-    class rhs_weap_m40a5: rhs_weap_XM2010_Base_F
+	class rhs_weap_XM2010_Base_F: Rifle_Base_F
+	{
+		magazines[] +=
+        {
+            _HLC_300WM_MAGS
+        };
+	};
+
+    // HLC/NIArms
+    class hlc_saw_base;
+    class hlc_lmg_minimipara: hlc_saw_base
     {
         magazines[] +=
         {
-            _BI_762_MAGS,
-            _ACE_762_MAGS
+            _BI_556NATO_BELTS,
+            _BI_556STANAG_MAGS,
+            _RHS_556NATO_BELTS,
+            _RHS_556STANAG_MAGS,
+            _FF7_556NATO_BELTS,
+            _ACE_556STANAG_MAGS
         };
     };
+
+    class hlc_lmg_minimi_railed;
+    class hlc_lmg_mk46: hlc_lmg_minimi_railed
+    {
+        magazines[] +=
+        {
+            _RHS_556NATO_BELTS,
+            _FF7_556NATO_BELTS
+        };
+    };
+
+    class hlc_lmg_mk48: hlc_saw_base
+    {
+        magazines[] +=
+        {
+            _RHS_762NATO_BELTS
+        };
+    };
+
+	class hlc_ar15_base: Rifle_Base_F
+	{
+		magazines[] +=
+        {
+            _RHS_556STANAG_MAGS,
+            _ACE_556STANAG_MAGS
+        };
+	};
+
+	class hlc_M14_base: Rifle_Base_F
+	{
+		magazines[] +=
+        {
+            _RHS_762M14_MAGS,
+            _ACE_762M14_MAGS
+        };
+	};
+
+	class hlc_AWC_base: Rifle_Base_F
+	{
+		magazines[] +=
+        {
+            _RHS_300WM_MAGS
+        };
+	};
 };
