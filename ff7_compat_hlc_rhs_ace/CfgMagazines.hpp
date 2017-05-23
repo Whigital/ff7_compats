@@ -17,7 +17,7 @@ class CfgMagazines
     };
 
     class hlc_30rnd_556x45_EPR;
-    class hlc_50rnd_556x45_EPR : hlc_30rnd_556x45_EPR
+    class hlc_50rnd_556x45_EPR: hlc_30rnd_556x45_EPR
     {
         mass = 20;
     };

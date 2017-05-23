@@ -170,7 +170,7 @@
 
 // ---------- 762 Drums ----------
 
-#define _HLC_762NATO_BELTS	"hlc_50Rnd_762x51_B_M14"
+#define _HLC_762NATO_DRUMS	"hlc_50Rnd_762x51_B_M14"
 
 
 // ---------- 40mm ----------
