@@ -2,14 +2,17 @@
     #define PREFIX ff7
 #endif
 
-#define AUTHOR "FoxForce7"
+#define AUTHGROUP FoxForce7
 
 #define QUOTE(var1) #var1
 #define DOUBLES(var1,var2) ##var1##_##var2
 #define TRIPLES(var1,var2,var3) ##var1##_##var2##_##var3
 
+#define AUTHOR QUOTE(AUTHGROUP)
+
 #define ADDON DOUBLES(PREFIX,COMPONENT)
-#define COMPONENT_NAME QUOTE(AUTHOR COMPONENT_BEAUTIFIED)
+
+#define COMPONENT_NAME QUOTE(AUTHGROUP COMPONENT_BEAUTIFIED)
 
 #define CSTRING(var1) QUOTE(TRIPLES($STR,ADDON,var1))
 
