@@ -18,7 +18,8 @@ class CfgPatches
             "hlcweapons_ar15",
             "hlcweapons_m14",
             "hlcweapons_SAW",
-            "hlcweapons_FHAWCovert"
+            "hlcweapons_FHAWCovert",
+            "hlcweapons_acr"
         };
         author = AUTHOR;
         authors[] =

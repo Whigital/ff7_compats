@@ -193,15 +193,15 @@ class CfgWeapons
         };
     };
 
-	class rhs_weap_XM2010_Base_F: Rifle_Base_F
-	{
-		magazines[] +=
+    class rhs_weap_XM2010_Base_F: Rifle_Base_F
+    {
+        magazines[] +=
         {
             _HLC_300WM_MAGS
         };
-	};
+    };
 
-    // HLC/NIArms
+    // HLC / NIArms
     class hlc_saw_base;
     class hlc_lmg_minimipara: hlc_saw_base
     {
@@ -234,29 +234,39 @@ class CfgWeapons
         };
     };
 
-	class hlc_ar15_base: Rifle_Base_F
-	{
-		magazines[] +=
+    class hlc_ar15_base: Rifle_Base_F
+    {
+        magazines[] +=
         {
             _RHS_556STANAG_MAGS,
             _ACE_556STANAG_MAGS
         };
-	};
+    };
 
-	class hlc_M14_base: Rifle_Base_F
-	{
-		magazines[] +=
+    class hlc_M14_base: Rifle_Base_F
+    {
+        magazines[] +=
         {
             _RHS_762M14_MAGS,
             _ACE_762M14_MAGS
         };
-	};
+    };
 
-	class hlc_AWC_base: Rifle_Base_F
-	{
-		magazines[] +=
+    class hlc_AWC_base: Rifle_Base_F
+    {
+        magazines[] +=
         {
             _RHS_300WM_MAGS
         };
-	};
+    };
+
+    class hlc_acr_base;
+    class hlc_acr556_base: hlc_acr_base
+    {
+        magazines[] +=
+        {
+            _RHS_556STANAG_MAGS,
+            _ACE_556STANAG_MAGS
+        };
+    };
 };
