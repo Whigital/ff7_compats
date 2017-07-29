@@ -62,7 +62,8 @@
                             "hlc_30rnd_556x45_SPR",\
                             "hlc_30rnd_556x45_MDim",\
                             "hlc_30rnd_556x45_TDim",\
-                            "hlc_30rnd_556x45_S"
+                            "hlc_30rnd_556x45_S",\
+                            "hlc_30rnd_556x45_M"
 
 #define _RHS_556STANAG_MAGS "rhs_mag_30Rnd_556x45_Mk318_Stanag",\
                             "rhs_mag_30Rnd_556x45_Mk262_Stanag",\
