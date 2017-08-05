@@ -1,24 +1,9 @@
 class CfgWeapons
 {
     // Vanilla
-    class mk20_base_F;
-    class arifle_Mk20_F: mk20_base_F
-    {
-        magazines[] +=
-        {
-            _HLC_556STANAG_MAGS
-        };
-    };
-
-    class arifle_Mk20C_F: mk20_base_F
-    {
-        magazines[] +=
-        {
-            _HLC_556STANAG_MAGS
-        };
-    };
-
-    class arifle_Mk20_GL_F: mk20_base_F
+    class Rifle_Base_F;
+    /*
+    class mk20_base_F: Rifle_Base_F
     {
         magazines[] +=
         {
@@ -35,8 +20,7 @@ class CfgWeapons
         };
     };
 
-    class Tavor_base_F;
-    class arifle_TRG20_F: Tavor_base_F
+    class Tavor_base_F: Rifle_Base_F
     {
         magazines[] +=
         {
@@ -44,23 +28,6 @@ class CfgWeapons
         };
     };
 
-    class arifle_TRG21_F: Tavor_base_F
-    {
-        magazines[] +=
-        {
-            _HLC_556STANAG_MAGS
-        };
-    };
-
-    class arifle_TRG21_GL_F: arifle_TRG21_F
-    {
-        magazines[] +=
-        {
-            _HLC_556STANAG_MAGS
-        };
-    };
-
-    class Rifle_Base_F;
     class arifle_SPAR_01_base_F: Rifle_Base_F
     {
         magazines[] +=
@@ -76,6 +43,7 @@ class CfgWeapons
             _HLC_556STANAG_MAGS
         };
     };
+    */
 
     class arifle_SPAR_03_base_F: Rifle_Base_F
     {
@@ -112,8 +80,7 @@ class CfgWeapons
         };
     };
 
-    class EBR_base_F;
-    class srifle_EBR_F: EBR_base_F
+    class EBR_base_F: Rifle_Long_Base_F
     {
         magazines[] +=
         {
@@ -171,13 +138,11 @@ class CfgWeapons
         };
     };
 
+    class srifle_EBR_F;
     class rhs_weap_m14ebrri: srifle_EBR_F
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS,
-            _BI_762M14_MAGS,
-            _ACE_762M14_MAGS,
             _HLC_762M14_MAGS
         };
     };
@@ -186,9 +151,6 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_762M14_MAGS,
-            _BI_762M14_MAGS,
-            _ACE_762M14_MAGS,
             _HLC_762M14_MAGS
         };
     };
@@ -201,17 +163,20 @@ class CfgWeapons
         };
     };
 
-    // HLC / NIArms
+
+    // HLC | NIArms
     class hlc_saw_base;
     class hlc_lmg_minimipara: hlc_saw_base
     {
-        magazines[] +=
+        magazines[] =
         {
+            _HLC_556NATO_BELTS,
             _BI_556NATO_BELTS,
-            _BI_556STANAG_MAGS,
             _RHS_556NATO_BELTS,
-            _RHS_556STANAG_MAGS,
             _FF7_556NATO_BELTS,
+            _HLC_556STANAG_MAGS,
+            _BI_556STANAG_MAGS,
+            _RHS_556STANAG_MAGS,
             _ACE_556STANAG_MAGS
         };
     };
