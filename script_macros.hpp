@@ -111,7 +111,7 @@
 #define _HLC_556NATO_DRUMS  "hlc_50rnd_556x45_EPR"
 
 
-// ---------- 762 20Rnd ----------
+// ---------- 762 20Rnd (M14) ----------
 
 #define _BI_762M14_MAGS     "20Rnd_762x51_Mag"
 
