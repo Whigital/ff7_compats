@@ -151,6 +151,9 @@ class CfgWeapons
     {
         magazines[] +=
         {
+            _RHS_762M14_MAGS,
+            _BI_762M14_MAGS,
+            _ACE_762M14_MAGS,
             _HLC_762M14_MAGS
         };
     };

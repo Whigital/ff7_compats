@@ -137,7 +137,7 @@ class CfgWeapons
         magazines[] =
         {
             _RHS_556STANAG_MAGS,
-            _BI_556STANAG_MAGS
+            _BI_556STANAG_MAGS,
             _BI_556NATO_DRUMS
         };
     };
@@ -155,6 +155,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
+            _RHS_762M14_MAGS,
             _BI_762M14_MAGS
         };
     };
