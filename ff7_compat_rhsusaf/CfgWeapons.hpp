@@ -123,6 +123,14 @@ class CfgWeapons
     };
     */
 
+    class rhs_weap_m240_base: rhs_weap_M249_base
+    {
+        magazines[] +=
+        {
+            _BI_762NATO_BELTS
+        };
+    };
+
     class rhs_weap_m4a1;
     class rhs_weap_m27iar: rhs_weap_m4a1
     {
@@ -145,9 +153,8 @@ class CfgWeapons
 
     class rhs_weap_sr25: rhs_weap_m14ebrri
     {
-        magazines[] =
+        magazines[] +=
         {
-            _RHS_762M14_MAGS,
             _BI_762M14_MAGS
         };
     };
