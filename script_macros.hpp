@@ -171,6 +171,9 @@
                             "rhsusf_50Rnd_762x51_m993",\
                             "rhsusf_100Rnd_762x51_m993"
 
+#define _BI_762NATO_BELTS   "150Rnd_762x51_Box",\
+                            "150Rnd_762x51_Box_Tracer"
+
 
 // ---------- 762 Drums ----------
 
