@@ -26,6 +26,7 @@ class CfgMagazines
         ACE_isBelt = 1;
     };
 
+    /*
     class CA_Magazine;
     class rhsusf_m112_mag: CA_Magazine
     {
@@ -83,4 +84,5 @@ class CfgMagazines
             class DeadmanSwitch: Command {};
         };
     };
+    */
 };

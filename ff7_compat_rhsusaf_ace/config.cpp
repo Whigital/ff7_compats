@@ -17,7 +17,7 @@ class CfgPatches
             "ff7_compat_rhsusaf",
             "ace_common",
             "ace_ballistics",
-            "ace_explosives",
+            //"ace_explosives",
             "ace_compat_rhs_usf3"
         };
         author = AUTHOR;
@@ -34,7 +34,7 @@ class CfgPatches
     };
 };
 
-#include "CfgAmmo.hpp"
+//#include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgVehicles.hpp"
+//#include "CfgVehicles.hpp"
