@@ -1,6 +1,5 @@
 class CfgWeapons
 {
-    /*
     // Vanilla
     class mk20_base_F;
     class arifle_Mk20_F: mk20_base_F
@@ -66,9 +65,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556STANAG_MAGS,
-            _RHS_556STANAG_MAGS,
-            _ACE_556STANAG_MAGS
+            _RHS_556STANAG_MAGS
         };
     };
 
@@ -76,7 +73,6 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _BI_556STANAG_MAGS,
             _RHS_556STANAG_MAGS,
             _ACE_556STANAG_MAGS
         };
@@ -95,7 +91,6 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _RHS_556NATO_BELTS,
             _FF7_556NATO_BELTS
         };
     };
@@ -126,7 +121,6 @@ class CfgWeapons
             _RHS_762M14_MAGS
         };
     };
-    */
 
 
     // RHS: USAF
@@ -168,7 +162,6 @@ class CfgWeapons
         };
     };
 
-    class srifle_EBR_F;
     class rhs_weap_m14ebrri: srifle_EBR_F
     {
         magazines[] +=
