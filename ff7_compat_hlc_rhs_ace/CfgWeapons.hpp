@@ -2,7 +2,7 @@ class CfgWeapons
 {
     // Vanilla
     class Rifle_Base_F;
-    /*
+
     class mk20_base_F: Rifle_Base_F
     {
         magazines[] +=
@@ -40,10 +40,10 @@ class CfgWeapons
     {
         magazines[] +=
         {
-            _HLC_556STANAG_MAGS
+            _HLC_556STANAG_MAGS,
+            _HLC_556NATO_DRUMS
         };
     };
-    */
 
     class arifle_SPAR_03_base_F: Rifle_Base_F
     {
