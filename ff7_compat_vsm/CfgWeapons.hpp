@@ -1445,4 +1445,19 @@ class CfgWeapons
     {
         picture=QICON(VSM_Scorpion_Crye_Uniform.paa);
     };
+
+
+    // Vests
+    class Vest_Camo_Base;
+    class VSM_MBSS_Green: Vest_Camo_Base {};
+    class VSM_MBSS_WTF: VSM_MBSS_Green
+	{
+		scope = 1;
+    };
+
+    class VSM_MBSS_PACA: Vest_Camo_Base {};
+    class VSM_MBSS_PACA_WTF: VSM_MBSS_PACA
+	{
+		scope = 1;
+    };
 };
