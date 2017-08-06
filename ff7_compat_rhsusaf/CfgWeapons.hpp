@@ -47,6 +47,7 @@ class CfgWeapons
     {
         magazines[] +=
         {
+            _BI_556STANAG_MAGS,
             _RHS_556STANAG_MAGS
         };
     };
