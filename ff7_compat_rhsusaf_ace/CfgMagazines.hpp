@@ -1,8 +1,6 @@
-class CfgMagazines
-{
+class CfgMagazines {
     class ACE_30Rnd_556x45_Stanag_M995_AP_mag;
-    class CLASS(200rnd_556x45_M995_AP_SAW): ACE_30Rnd_556x45_Stanag_M995_AP_mag
-    {
+    class CLASS(200rnd_556x45_M995_AP_SAW): ACE_30Rnd_556x45_Stanag_M995_AP_mag {
         author = AUTHOR;
         displayName = "5.56mm 200Rnd Mag (M995 AP)";
         descriptionShort = "Caliber: 5.56x45mm NATO (M995 AP)<br />Rounds: 200";
@@ -14,8 +12,7 @@ class CfgMagazines
     };
 
     class ACE_30Rnd_556x45_Stanag_Mk318_mag;
-    class CLASS(200rnd_556x45_Mk318_SAW): ACE_30Rnd_556x45_Stanag_Mk318_mag
-    {
+    class CLASS(200rnd_556x45_Mk318_SAW): ACE_30Rnd_556x45_Stanag_Mk318_mag {
         author = AUTHOR;
         displayName = "5.56mm 200Rnd Mag (Mk318)";
         descriptionShort = "Caliber: 5.56x45mm NATO (Mk318)<br />Rounds: 200";
@@ -28,8 +25,7 @@ class CfgMagazines
 
     /*
     class CA_Magazine;
-    class rhsusf_m112_mag: CA_Magazine
-    {
+    class rhsusf_m112_mag: CA_Magazine {
         ace_explosives_DelayTime = 1;
         ace_explosives_Placeable = 1;
         ace_explosives_SetupObject = "ACE_Explosives_Place_rhsusf_m112_DemoCharge";
@@ -37,17 +33,14 @@ class CfgMagazines
         type = "2*      256";
         allowedSlots[] = {901,701};
 
-        class ACE_Triggers
-        {
+        class ACE_Triggers {
             SupportedTriggers[] = {"Timer", "Command", "MK16_Transmitter", "DeadmanSwitch"};
 
-            class Timer
-            {
+            class Timer {
                 FuseTime = 0.5;
             };
 
-            class Command
-            {
+            class Command {
                 FuseTime = 0.5;
             };
 
@@ -56,8 +49,7 @@ class CfgMagazines
         };
     };
 
-    class rhsusf_m112x4_mag: CA_Magazine
-    {
+    class rhsusf_m112x4_mag: CA_Magazine {
         ace_explosives_DelayTime = 1;
         ace_explosives_Placeable = 1;
         ace_explosives_SetupObject = "ACE_Explosives_Place_rhsusf_m112x4_DemoCharge";
@@ -66,17 +58,14 @@ class CfgMagazines
         allowedSlots[] = {901};
         count = 1;
 
-        class ACE_Triggers
-        {
+        class ACE_Triggers {
             SupportedTriggers[] = {"Timer", "Command", "MK16_Transmitter", "DeadmanSwitch"};
 
-            class Timer
-            {
+            class Timer {
                 FuseTime = 0.5;
             };
 
-            class Command
-            {
+            class Command {
                 FuseTime = 0.5;
             };
 

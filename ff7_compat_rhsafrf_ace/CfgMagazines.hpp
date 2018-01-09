@@ -1,8 +1,6 @@
-class CfgMagazines
-{
+class CfgMagazines {
     class ACE_10Rnd_338_300gr_HPBT_Mag;
-    class CLASS(5Rnd_338_300gr_HPBT_Mag): ACE_10Rnd_338_300gr_HPBT_Mag
-    {
+    class CLASS(5Rnd_338_300gr_HPBT_Mag): ACE_10Rnd_338_300gr_HPBT_Mag {
         author = AUTHOR;
         ammo = "ACE_338_Ball";
         displayName = ".338 5Rnd Mag (300gr Sierra MatchKing HPBT)";
@@ -13,8 +11,7 @@ class CfgMagazines
     };
 
     class ACE_10Rnd_338_API526_Mag;
-    class CLASS(5Rnd_338_API526_Mag): ACE_10Rnd_338_API526_Mag
-    {
+    class CLASS(5Rnd_338_API526_Mag): ACE_10Rnd_338_API526_Mag {
         author = AUTHOR;
         ammo = "ACE_338_Ball_API526";
         displayName = ".338 5Rnd Mag (API526)";

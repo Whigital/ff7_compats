@@ -1,10 +1,8 @@
 #include "script_component.hpp"
 #include "..\script_macros.hpp"
 
-class CfgPatches
-{
-    class ADDON
-    {
+class CfgPatches {
+    class ADDON {
         name = COMPONENT_NAME;
         version = VERSION;
         units[] = {};
@@ -884,8 +882,7 @@ class CfgPatches
             "map_vr"
         };
         author = AUTHOR;
-        authors[] =
-        {
+        authors[] = {
             "Whigital"
         };
         magazines[] = {};

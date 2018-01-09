@@ -1,17 +1,14 @@
 #include "script_component.hpp"
 #include "..\script_macros.hpp"
 
-class CfgPatches
-{
-    class ADDON
-    {
+class CfgPatches {
+    class ADDON {
         name = COMPONENT_NAME;
         version = VERSION;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQ_VERSION;
-        requiredAddons[] =
-        {
+        requiredAddons[] = {
             "VSM_HELMETS",
             "VSM_Shemagh_config",
             "ace_goggles",
@@ -26,8 +23,7 @@ class CfgPatches
             "VSM_Scorpion_Config"
         };
         author = AUTHOR;
-        authors[] =
-        {
+        authors[] = {
             "Whigital",
             "Bliss"
         };

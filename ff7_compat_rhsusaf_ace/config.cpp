@@ -1,17 +1,14 @@
 #include "script_component.hpp"
 #include "..\script_macros.hpp"
 
-class CfgPatches
-{
-    class ADDON
-    {
+class CfgPatches {
+    class ADDON {
         name = COMPONENT_NAME;
         version = VERSION;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQ_VERSION;
-        requiredAddons[] =
-        {
+        requiredAddons[] = {
             "ff7_compat_core",
             "rhsusf_c_weapons",
             "ff7_compat_rhsusaf",
@@ -21,12 +18,10 @@ class CfgPatches
             "ace_compat_rhs_usf3"
         };
         author = AUTHOR;
-        authors[] =
-        {
+        authors[] = {
             "Whigital"
         };
-        magazines[] =
-        {
+        magazines[] = {
             QCLASS(200rnd_556x45_M995_AP_SAW),
             QCLASS(200rnd_556x45_Mk318_SAW)
         };

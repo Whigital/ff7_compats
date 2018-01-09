@@ -1,17 +1,14 @@
 #include "script_component.hpp"
 #include "..\script_macros.hpp"
 
-class CfgPatches
-{
-    class ADDON
-    {
+class CfgPatches {
+    class ADDON {
         name = COMPONENT_NAME;
         version = VERSION;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQ_VERSION;
-        requiredAddons[] =
-        {
+        requiredAddons[] = {
             "ff7_compat_core",
             "ff7_compat_rhsusaf_ace",
             "hlcweapons_core",
@@ -22,8 +19,7 @@ class CfgPatches
             "hlcweapons_acr"
         };
         author = AUTHOR;
-        authors[] =
-        {
+        authors[] = {
             "csathdfw",
             "Whigital"
         };
