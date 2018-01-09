@@ -312,7 +312,7 @@ class CfgWeapons {
         picture=QICON(VSM_AOR1_Crye_SS_Uniform.paa);
     };
 
-    class VSM_AOR1_Crye_tan_pants_Camo : Uniform_Base 
+    class VSM_AOR1_Crye_tan_pants_Camo : Uniform_Base {
         picture=QICON(VSM_AOR1_Crye_tan_pants_Uniform.paa);
     };
 
