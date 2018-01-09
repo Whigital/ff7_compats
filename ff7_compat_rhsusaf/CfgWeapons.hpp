@@ -169,4 +169,15 @@ class CfgWeapons
             _BI_762_MAGS
         };
     };
+
+    class rhsusf_hgu56p;
+    class rhsusf_hgu56p_pink: rhsusf_hgu56p
+    {
+        scope = 1;
+    };
+
+    class rhsusf_hgu56p_usa: rhsusf_hgu56p
+    {
+        scope = 1;
+    };
 };
